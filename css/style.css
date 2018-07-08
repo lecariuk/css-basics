@@ -51,6 +51,15 @@ a:hover {
   color: forestgreen;
 }
 
+a:active {
+  color: lightcoral;
+}
+
+a:focus {
+  color:white;
+  background-color: orange;
+}
+
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
