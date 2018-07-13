@@ -32,7 +32,7 @@ h3 {
 /* Class selectors */
 
 .main-header {
-  background-color: orange; /* This makes our header background orange */
+  background-color: #ff0033; /* This makes our header background orange */
 }
 
 .title {
