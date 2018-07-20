@@ -4,7 +4,7 @@
 body {
   color: #878787;
   margin: 0;
-  font: normal 1em/1.5 "Helvetica Neue" Helvetica, Arial, sans-serif;
+  font: normal 1em/1.5 Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -17,7 +17,7 @@ h1 {
 
 h2 {
   font-size: 53px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h3 {
@@ -30,7 +30,7 @@ h3 {
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-bottom: solid 10px #ffa949;
+  border-bottom: 10px solid #ffa949;
 }
 
 /* Class selectors */
@@ -75,4 +75,19 @@ a:hover {
 
 a:active {
   color: lightcoral;
+}
+
+/* Layout Styles */
+
+.primary-content,
+.secondary-content {
+  width: 60%;
+}
+
+.wildlife {
+  color: white;
+  background-color: #434a52;
+  padding: 18% 24%;
+  border-top: 10px solid #ffa949;
+  margin: 105px 0 60px;
 }
