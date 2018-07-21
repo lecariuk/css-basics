@@ -1,6 +1,10 @@
 
 /* Base styles */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: #878787;
   margin: 0;
@@ -58,10 +62,11 @@ a:active {
   color: lightcoral;
 }
 
-/* Class selectors */
+/* Main styles - class selectors */
 
 .main-header {
   background-color: #ffa949; /* This makes our header background orange */
+  height: 850px;
 }
 
 .title {
@@ -75,7 +80,7 @@ a:active {
 }
 
 .primary-content,
-.main-header
+.main-header,
 .main-footer {
   text-align: center;
 }
@@ -113,8 +118,11 @@ a:active {
 
 .primary-content,
 .secondary-content {
-  width: 60%;
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: auto;
+  max-width: 900px;
 }
 
 .wildlife {
@@ -131,6 +139,10 @@ a:active {
   margin-bottom: 60px;
   margin-left: 0;
 */
+
+.arrow {
+  width: 50px;
+}
 
 /* ID selectors */
 
