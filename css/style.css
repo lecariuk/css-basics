@@ -38,6 +38,7 @@ h3 {
 img {
   max-width: 100%;
   margin-bottom: 20px;
+  border-radius: 15px;
 }
 
 ul {
@@ -149,6 +150,7 @@ a:active {
   background: #434a52 url('../img/bear.jpg') no-repeat center;
   background-size: cover;
   box-shadow: 15px 15px 10px -5px rgba(0,0,0, .8);
+  border-radius: 15px;
   }
 
 /*
