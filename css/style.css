@@ -210,14 +210,6 @@ a:active {
   clear: both;
 }
 
-/* ID selectors */
-
-#main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px solid #ffa949;
-}
-
 /* Media Queries */
 
 @media (max-width:1024px) {
@@ -252,5 +244,16 @@ a:active {
   }
   .arrow {
     display: none;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .resorts,
+  .tips {
+    float: none;
+    width: 100%;
+  }
+  .main-footer {
+    padding: 20px 0;
   }
 }
